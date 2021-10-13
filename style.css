@@ -1,10 +1,42 @@
-.grid {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    height: 100%;
-  }
+body {
+  text-align: center;
+  font-family: monospace;
+  font-size: medium;
+}
 
-h3 {
-    font-family: monospace;
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid rgb(0, 0, 0);
+  padding: 10px;
+  background-color: white;
+}
+
+.grid {
+  display: inline-block;
+}
+
+.grid img {
+  height: 230px;
+  margin: 3px;
+}
+
+:root {
+	--gradient: linear-gradient(90deg, #ffffff, rgb(255, 122, 104), #555555);
+}
+body {
+	background-size: 300%;
+	background-image: var(--gradient);
+	animation: bg-animation 25s infinite;
+}
+@keyframes bg-animation {
+	0% {
+		background-position: left
+	}
+	50% {
+		background-position: right
+	}
+	100% {
+		background-position: left
+	}
 }
