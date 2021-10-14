@@ -28,7 +28,7 @@ allow the “External user” to enjoy a basic JavaScript game, in a number of b
 - 1 Basic HTML
 - 2 Inline and External CSS
 - 3 Score updater
-- 4 Cards will change to a diamond icon if matched
+- 4 Cards will change if matched
 - 5 Website will promt when matched
 - 6 Website will promt whem there is no match
 - 7 congratulates user upon completeiion
