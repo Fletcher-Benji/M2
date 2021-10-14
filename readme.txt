@@ -6,7 +6,7 @@ displays the information to achieve their preferred goals.
 
 Project idea 2 'Memory Game'
 
-I am to create a basic card mating memory game, using assets from the video game minecraft (its item sprites) I am to create a user experiance with feedback and changes in the code to reflect the users actions.
+I am to create a basic card mating memory game, using tarrot cards I have found online I am to create a user experiance with feedback and changes in the code to reflect the users actions.
 
 So this means I need to create web app that has the functionality of:
 
@@ -33,6 +33,11 @@ allow the “External user” to enjoy a basic JavaScript game, in a number of b
 - 6 Website will promt whem there is no match
 - 7 congratulates user upon completeiion
 - 8 JavaScript code
+  * for loops (card array)
+  * addEventListener (clicking event)
+  * setAttribute (makes game board, changes card state, checks matches)
+  * Sort 
+  * math.random (random card placement each time)
 - 9 Random cards generated 
  
 
@@ -61,7 +66,7 @@ Visual Studio Code
 2. Cards reset to blank when not paired 
     1.  highlight and click blank cards
     2.  highlight and click another blank card that is the different as the first
-    3. text promt "nope."
+    3. text promt "not a match."
 
 3. score change 
     1. repeat testing 1 and succesfully match two sets of cards
@@ -69,7 +74,7 @@ Visual Studio Code
 
 4. Congratulations promt 
     1. match all cards
-    2. texty promt "Congratulations!"
+    2. texty promt "Congratulations! all the cards are found"
 
 ## Bug
 
@@ -78,11 +83,9 @@ If I where to revisit this I would ensure the user is limited on the imputs for 
 
 ## Deployment
 
-I will be hosting my project on Github for easy deployment/development onto an exsiting domain. Paired with Netlify.
-
-## Credits
-mojang: minecraft (Icon Assets)
+I will be hosting my project on Github for easy deployment/development onto an exsiting domain. Paired with heroku.
+(I have had to add a PHP index file that just redirects top the index.html file, this is the only way I have found to deploy a static site to heroku)
 
 ### Media
-- The Videogame minecraft
+Vintage Tarot cards 
 
